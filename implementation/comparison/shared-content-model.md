@@ -68,4 +68,7 @@ Initial posts:
 | Homepage | `front-page.html` and patterns | `src/app/page.tsx` |
 | Blog index | `index.html` fallback/posts page | `src/app/blog/page.tsx` |
 | Post detail | `single.html` | `src/app/blog/[slug]/page.tsx` |
-
+| Services | `patterns/services-page.php` inserted into a WordPress page | `src/app/services/page.tsx` |
+| About | `patterns/about-page.php` inserted into a WordPress page | `src/app/about/page.tsx` |
+| Contact | `patterns/contact-page.php` inserted into a WordPress page | `src/app/contact/page.tsx` |
+| Privacy Policy | `patterns/privacy-page.php` inserted into a WordPress page | `src/app/privacy-policy/page.tsx` |

@@ -1,9 +1,10 @@
 import Link from 'next/link';
 
 const navigation = [
+  { href: '/services', label: 'Services' },
   { href: '/blog', label: 'Blog' },
-  { href: '/#services', label: 'Services' },
-  { href: '/#contact', label: 'Contact' }
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' }
 ];
 
 export function Header() {
@@ -22,4 +23,3 @@ export function Header() {
     </header>
   );
 }
-

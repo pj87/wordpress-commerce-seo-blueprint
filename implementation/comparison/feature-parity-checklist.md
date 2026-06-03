@@ -7,12 +7,12 @@ Use this checklist when developing both paths in parallel.
 | Feature | Block theme | Headless Next.js | Notes |
 | --- | --- | --- | --- |
 | Home page | [x] | [x] | Block theme uses `front-page.html`; Next uses `src/app/page.tsx` |
-| Services page | [ ] | [ ] | Needs page content or route implementation |
-| About page | [ ] | [ ] | Needs page content or route implementation |
+| Services page | [x] | [x] | Block theme has page pattern; Next has `/services` route |
+| About page | [x] | [x] | Block theme has page pattern; Next has `/about` route |
 | Blog index | [x] | [x] | Next supports empty state without API |
 | Blog post detail | [x] | [x] | Next route is dynamic |
-| Contact page | [ ] | [ ] | Needs form strategy |
-| Privacy policy | [ ] | [ ] | Needs content |
+| Contact page | [x] | [x] | Placeholder form strategy in both |
+| Privacy policy | [x] | [x] | Placeholder legal content in both |
 
 ## Homepage Sections
 
@@ -53,7 +53,7 @@ Use this checklist when developing both paths in parallel.
 
 Bring the next set of page and conversion features into parity:
 
-1. Add Services and About pages to both tracks.
-2. Add contact page/form strategy for both tracks.
-3. Add post CTA to the Next.js blog post route.
-4. Add deployment guides for both tracks.
+1. Add post CTA to the Next.js blog post route.
+2. Add category display/routes for both tracks.
+3. Add deployment guides for both tracks.
+4. Add sitemap strategy for both tracks.

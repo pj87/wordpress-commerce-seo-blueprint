@@ -31,10 +31,24 @@ Create or fill these pages:
 Use these block patterns:
 
 - Service Hero
+- Problem Section
+- Solution Section
 - Benefits Section
 - Project Process
+- Blog Preview
 - Service FAQ
 - Final CTA
+
+## Page Patterns
+
+Use these block patterns for the core pages:
+
+| Page | Pattern |
+| --- | --- |
+| Services | Services Page Content |
+| About | About Page Content |
+| Contact | Contact Page Content |
+| Privacy Policy | Privacy Page Content |
 
 ## Blog Posts
 
@@ -60,4 +74,3 @@ Assign posts to:
 - Contact page has a working form.
 - Blog has 3 posts.
 - Posts link to the relevant service or contact page.
-
