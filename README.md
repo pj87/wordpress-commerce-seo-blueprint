@@ -44,6 +44,7 @@ projects/
 
 implementation/
   wordpress-block-theme/
+  headless-nextjs/
   setup/
 
 checklists/
@@ -80,6 +81,8 @@ See `projects/demo-service-site/` for a filled-out example of this project type.
 ## Buildable Starter
 
 Use `implementation/wordpress-block-theme/` as a minimal block theme starter for the demo service site.
+
+Use `implementation/headless-nextjs/` for a JS-first frontend that consumes the WordPress REST API.
 
 Setup notes live in `implementation/setup/`.
 
