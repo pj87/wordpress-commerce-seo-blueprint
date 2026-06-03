@@ -23,14 +23,20 @@ const apiUrl = process.env.WORDPRESS_API_URL;
 
 function getApiUrl() {
   if (!apiUrl) {
-    throw new Error('WORDPRESS_API_URL is not configured.');
+    return null;
   }
 
   return apiUrl.replace(/\/$/, '');
 }
 
 async function fetchWordPress<T>(path: string): Promise<T> {
-  const response = await fetch(`${getApiUrl()}${path}`, {
+  const baseUrl = getApiUrl();
+
+  if (!baseUrl) {
+    throw new Error('WORDPRESS_API_URL is not configured.');
+  }
+
+  const response = await fetch(`${baseUrl}${path}`, {
     next: {
       revalidate: 300
     }
@@ -44,10 +50,18 @@ async function fetchWordPress<T>(path: string): Promise<T> {
 }
 
 export async function getPosts() {
+  if (!getApiUrl()) {
+    return [];
+  }
+
   return fetchWordPress<WordPressPost[]>('/posts?_fields=id,date,slug,link,title,excerpt&per_page=10');
 }
 
 export async function getPostBySlug(slug: string) {
+  if (!getApiUrl()) {
+    return null;
+  }
+
   const posts = await fetchWordPress<WordPressPost[]>(
     `/posts?slug=${encodeURIComponent(slug)}&_fields=id,date,slug,link,title,content,excerpt`
   );
@@ -56,10 +70,13 @@ export async function getPostBySlug(slug: string) {
 }
 
 export async function getPageBySlug(slug: string) {
+  if (!getApiUrl()) {
+    return null;
+  }
+
   const pages = await fetchWordPress<WordPressPage[]>(
     `/pages?slug=${encodeURIComponent(slug)}&_fields=id,slug,title,content`
   );
 
   return pages[0] ?? null;
 }
-

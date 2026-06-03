@@ -12,6 +12,12 @@ export default async function BlogPage() {
   return (
     <main className="section">
       <h1>Blog</h1>
+      {posts.length === 0 ? (
+        <p>
+          No WordPress posts are available yet. Configure <code>WORDPRESS_API_URL</code> in
+          <code> .env.local</code> after connecting a WordPress site.
+        </p>
+      ) : null}
       <div className="post-list">
         {posts.map((post) => (
           <article key={post.id}>
@@ -25,4 +31,3 @@ export default async function BlogPage() {
     </main>
   );
 }
-
