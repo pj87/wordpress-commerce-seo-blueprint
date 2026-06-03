@@ -73,3 +73,5 @@ Initial posts:
 | About | `patterns/about-page.php` inserted into a WordPress page | `src/app/about/page.tsx` |
 | Contact | `patterns/contact-page.php` inserted into a WordPress page | `src/app/contact/page.tsx` |
 | Privacy Policy | `patterns/privacy-page.php` inserted into a WordPress page | `src/app/privacy-policy/page.tsx` |
+| Sitemap | WordPress core sitemap or SEO plugin sitemap | `src/app/sitemap.ts` |
+| Robots | WordPress/SEO plugin robots handling | `src/app/robots.ts` |

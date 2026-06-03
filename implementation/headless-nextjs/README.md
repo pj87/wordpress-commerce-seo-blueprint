@@ -38,6 +38,7 @@ npm install
 
 ```text
 WORDPRESS_API_URL=https://example.com/wp-json/wp/v2
+NEXT_PUBLIC_SITE_URL=https://example.com
 ```
 
 4. Run the dev server:
@@ -60,9 +61,19 @@ http://localhost:3000
 - Blog categories created
 - Featured images optional
 
+## SEO Routes
+
+The app generates:
+
+```text
+/sitemap.xml
+/robots.txt
+```
+
+Set `NEXT_PUBLIC_SITE_URL` before production deployment so those files use the public frontend domain.
+
 ## When To Use This
 
 Use this path when the frontend must be React/Next.js, but WordPress should remain the content admin.
 
 Use the block theme path when WordPress-native editing and simpler hosting matter more.
-

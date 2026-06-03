@@ -28,6 +28,7 @@ Use:
 13. Configure backups.
 14. Review admin users.
 15. Remove unused plugins.
+16. Confirm deployment-specific setup in `implementation/setup/07-deployment.md`.
 
 ## Verification
 
@@ -38,4 +39,4 @@ Use:
 - Search Console is connected.
 - Backups are configured.
 - Mobile layout is reviewed.
-
+- Sitemap and robots routes are verified.

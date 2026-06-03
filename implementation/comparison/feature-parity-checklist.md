@@ -34,7 +34,7 @@ Use this checklist when developing both paths in parallel.
 | --- | --- | --- | --- |
 | SEO title handling | [ ] | [x] | Next has metadata objects; block theme depends on WordPress/SEO plugin |
 | Meta descriptions | [ ] | [x] | Same as above |
-| Sitemap | [ ] | [ ] | Needs strategy in both |
+| Sitemap | [x] | [x] | WordPress uses SEO/core sitemap; Next generates `/sitemap.xml` |
 | Categories | [x] | [x] | Block theme has category template/list; Next has `/categories` and category detail routes |
 | Internal links | [ ] | [ ] | Needs content entry |
 | CTA on posts | [x] | [x] | Block theme includes CTA pattern; Next includes post CTA section |
@@ -46,14 +46,14 @@ Use this checklist when developing both paths in parallel.
 | Local setup docs | [x] | [x] | Both documented |
 | Build/test command | [ ] | [x] | Next has lint/typecheck/build |
 | Theme activation docs | [x] | [ ] | Not applicable to headless |
-| Deployment docs | [ ] | [ ] | Needs separate deployment guides |
-| Launch checklist mapping | [x] | [ ] | Needs headless launch mapping |
+| Deployment docs | [x] | [x] | `implementation/setup/07-deployment.md` covers both |
+| Launch checklist mapping | [x] | [x] | Launch prep links to deployment-specific setup |
 
 ## Next Priority
 
 Bring the next set of page and conversion features into parity:
 
-1. Add deployment guides for both tracks.
-2. Add sitemap strategy for both tracks.
-3. Add explicit internal-linking examples for page and post content.
-4. Decide production form handling for both tracks.
+1. Add explicit internal-linking examples for page and post content.
+2. Decide production form handling for both tracks.
+3. Add analytics/Search Console setup notes for both tracks.
+4. Add image/media handling strategy for both tracks.

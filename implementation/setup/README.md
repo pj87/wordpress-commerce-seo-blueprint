@@ -10,3 +10,4 @@ Use these notes to turn the framework into a working WordPress demo.
 4. `04-demo-content-entry.md`
 5. `05-launch-preparation.md`
 6. `06-js-and-css-enhancements.md`
+7. `07-deployment.md`
