@@ -31,6 +31,7 @@ Use:
 16. Confirm deployment-specific setup in `implementation/setup/07-deployment.md`.
 17. Confirm analytics and Search Console setup in `implementation/setup/09-analytics-search-console.md`.
 18. Confirm form spam hardening in `implementation/setup/11-form-spam-hardening.md`.
+19. Run accessibility QA in `implementation/setup/12-accessibility-qa.md`.
 
 ## Verification
 
@@ -43,3 +44,4 @@ Use:
 - Mobile layout is reviewed.
 - Sitemap and robots routes are verified.
 - Contact form spam controls are verified.
+- Accessibility checks are completed.

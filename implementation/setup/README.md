@@ -15,3 +15,4 @@ Use these notes to turn the framework into a working WordPress demo.
 9. `09-analytics-search-console.md`
 10. `10-media-image-handling.md`
 11. `11-form-spam-hardening.md`
+12. `12-accessibility-qa.md`

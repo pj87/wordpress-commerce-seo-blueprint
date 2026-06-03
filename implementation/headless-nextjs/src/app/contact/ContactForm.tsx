@@ -68,7 +68,13 @@ export function ContactForm() {
         {formState.status === 'submitting' ? 'Sending...' : 'Send message'}
       </button>
       {formState.message ? (
-        <p className={`form-status ${formState.status === 'success' ? 'success' : 'error'}`}>{formState.message}</p>
+        <p
+          aria-live="polite"
+          className={`form-status ${formState.status === 'success' ? 'success' : 'error'}`}
+          role="status"
+        >
+          {formState.message}
+        </p>
       ) : null}
     </form>
   );
