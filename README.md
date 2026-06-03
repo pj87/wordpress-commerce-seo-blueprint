@@ -39,6 +39,9 @@ starters/
   seo-affiliate-blog.md
   headless-wordpress-blog.md
 
+projects/
+  demo-service-site/
+
 checklists/
   launch-checklist.md
   maintenance-checklist.md
@@ -68,6 +71,8 @@ Build a client-style WordPress service website:
 - SEO metadata
 - Analytics and sitemap
 
+See `projects/demo-service-site/` for a filled-out example of this project type.
+
 ## How To Use This Repo
 
 1. Read `docs/01-framework-overview.md`.
@@ -76,4 +81,5 @@ Build a client-style WordPress service website:
 4. Choose a starter kit from `starters/`.
 5. Run the matching workflow from `workflows/`.
 6. Use the relevant checklist and example template.
-7. Keep the original blueprint as the complete reference document.
+7. Compare your output with `projects/demo-service-site/`.
+8. Keep the original blueprint as the complete reference document.
