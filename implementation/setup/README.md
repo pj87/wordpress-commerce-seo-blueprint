@@ -16,3 +16,4 @@ Use these notes to turn the framework into a working WordPress demo.
 10. `10-media-image-handling.md`
 11. `11-form-spam-hardening.md`
 12. `12-accessibility-qa.md`
+13. `13-performance-qa.md`
