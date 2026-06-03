@@ -13,6 +13,7 @@ Use this checklist when developing both paths in parallel.
 | Blog post detail | [x] | [x] | Next route is dynamic |
 | Contact page | [x] | [x] | Block theme uses form plugin/shortcode placeholder; Next has `/api/contact` route |
 | Privacy policy | [x] | [x] | Placeholder legal content in both |
+| Shop preview | [x] | [x] | WooCommerce path documented; Next has static `/shop` catalog preview |
 
 ## Homepage Sections
 
@@ -54,12 +55,13 @@ Use this checklist when developing both paths in parallel.
 | Form spam hardening | [x] | [x] | WordPress plugin requirements documented; Next route has basic spam checks |
 | Accessibility QA | [x] | [x] | Shared QA checklist added; Next form status is announced |
 | Performance QA | [x] | [x] | Shared QA checklist added; Next build route expectations documented |
+| WooCommerce implementation | [x] | [x] | WordPress path is real WooCommerce; Next path is catalog preview boundary |
 
 ## Next Priority
 
 Bring the next set of page and conversion features into parity:
 
-1. Add WooCommerce implementation parity.
-2. Add editor preview/content workflow notes.
-3. Add release checklist.
-4. Add automated docs/link checks.
+1. Add editor preview/content workflow notes.
+2. Add release checklist.
+3. Add automated docs/link checks.
+4. Expand headless WooCommerce API integration.

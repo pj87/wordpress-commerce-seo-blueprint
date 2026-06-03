@@ -6,6 +6,7 @@ export function Footer() {
       <p>WP Growth Studio builds WordPress landing pages, SEO blogs, and WooCommerce-ready sites.</p>
       <nav className="footer-nav" aria-label="Footer navigation">
         <Link href="/services">Services</Link>
+        <Link href="/shop">Shop</Link>
         <Link href="/blog">Blog</Link>
         <Link href="/categories">Categories</Link>
         <Link href="/contact">Contact</Link>

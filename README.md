@@ -41,6 +41,7 @@ starters/
 
 projects/
   demo-service-site/
+  demo-woocommerce-store/
 
 implementation/
   wordpress-block-theme/

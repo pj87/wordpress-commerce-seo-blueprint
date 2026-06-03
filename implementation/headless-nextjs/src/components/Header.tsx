@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 const navigation = [
   { href: '/services', label: 'Services' },
+  { href: '/shop', label: 'Shop' },
   { href: '/blog', label: 'Blog' },
   { href: '/categories', label: 'Categories' },
   { href: '/about', label: 'About' },

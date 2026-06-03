@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getCategories, getPosts } from '@/lib/wordpress';
 
-const staticRoutes = ['', '/services', '/about', '/blog', '/categories', '/contact', '/privacy-policy'];
+const staticRoutes = ['', '/services', '/shop', '/about', '/blog', '/categories', '/contact', '/privacy-policy'];
 
 function getSiteUrl() {
   return (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(/\/$/, '');
@@ -34,4 +34,3 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   return [...staticEntries, ...postEntries, ...categoryEntries];
 }
-

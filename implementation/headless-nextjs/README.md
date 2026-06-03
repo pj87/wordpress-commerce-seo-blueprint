@@ -19,6 +19,7 @@ WordPress still requires PHP on the backend. The public frontend is built with T
 
 - Home page
 - Services page
+- Shop preview
 - About page
 - Blog index
 - Blog post detail route
@@ -80,6 +81,7 @@ http://localhost:3000
 ```text
 /
 /services
+/shop
 /about
 /blog
 /blog/[slug]
