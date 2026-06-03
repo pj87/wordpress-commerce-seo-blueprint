@@ -18,12 +18,23 @@ WordPress still requires PHP on the backend. The public frontend is built with T
 ## Features
 
 - Home page
+- Services page
+- About page
 - Blog index
 - Blog post detail route
+- Category index
+- Category detail route
+- Contact page
+- Contact API route
+- Privacy policy page
 - WordPress REST API client
-- Basic metadata handling
+- Sitemap and robots generation
+- Basic metadata and Search Console verification
+- Optional GA4 analytics script
+- Basic contact form spam checks
+- Self-contained visual slots
 - Minimal CSS
-- Typed post/page models
+- Typed post, page, and category models
 
 ## Setup
 
@@ -62,7 +73,24 @@ http://localhost:3000
 - Public posts published
 - REST API accessible
 - Blog categories created
-- Featured images optional
+- Featured images optional for future media integration
+
+## Public Routes
+
+```text
+/
+/services
+/about
+/blog
+/blog/[slug]
+/categories
+/categories/[slug]
+/contact
+/privacy-policy
+/sitemap.xml
+/robots.txt
+/api/contact
+```
 
 ## SEO Routes
 

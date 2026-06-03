@@ -7,7 +7,7 @@ This folder turns the documentation framework into buildable WordPress assets.
 - `wordpress-block-theme/` - a minimal block theme starter for the demo service site.
 - `headless-nextjs/` - a JS-first frontend scaffold that consumes WordPress REST API content.
 - `comparison/` - parity docs for developing both implementation paths in parallel.
-- `setup/` - setup notes for local WordPress, plugins, content entry, and launch preparation.
+- `setup/` - setup notes for local WordPress, plugins, content entry, launch, deployment, linking, analytics, media, and form hardening.
 
 ## Intended Use
 
@@ -23,4 +23,4 @@ The theme maps to the demo project in `projects/demo-service-site/`.
 
 See `wordpress-block-theme/README.md` for the theme file structure and PHP/JS boundary.
 
-Use `headless-nextjs/` when you want a React/Next.js public frontend while keeping WordPress as the CMS.
+Use `headless-nextjs/` when you want a React/Next.js public frontend while keeping WordPress as the CMS. It includes public routes, WordPress REST API helpers, contact form handling, sitemap/robots generation, analytics hooks, and deployment configuration.

@@ -83,7 +83,7 @@ See `projects/demo-service-site/` for a filled-out example of this project type.
 
 Use `implementation/wordpress-block-theme/` as a minimal block theme starter for the demo service site.
 
-Use `implementation/headless-nextjs/` for a JS-first frontend that consumes the WordPress REST API.
+Use `implementation/headless-nextjs/` for a JS-first frontend with pages, blog routes, category routes, contact API, sitemap, robots, analytics hooks, and WordPress REST API content.
 
 Setup notes live in `implementation/setup/`.
 
@@ -97,4 +97,5 @@ Setup notes live in `implementation/setup/`.
 6. Use the relevant checklist and example template.
 7. Compare your output with `projects/demo-service-site/`.
 8. Build with `implementation/wordpress-block-theme/` if you want a WordPress theme starter.
-9. Keep the original blueprint as the complete reference document.
+9. Build with `implementation/headless-nextjs/` if you want a React/Next.js frontend.
+10. Keep the original blueprint as the complete reference document.

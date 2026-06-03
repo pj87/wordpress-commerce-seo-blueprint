@@ -59,10 +59,11 @@ Single post by slug:
 
 - Configure `WORDPRESS_API_URL`.
 - Confirm the WordPress REST API is public.
+- Configure `NEXT_PUBLIC_SITE_URL`.
+- Configure `CONTACT_FORM_ENDPOINT`.
+- Configure analytics/Search Console variables if needed.
+- Confirm `/blog` and `/categories` return content when WordPress is connected.
+- Confirm `/sitemap.xml` and `/robots.txt`.
+- Confirm `/api/contact` forwards to the production endpoint.
 - Add preview support if editors need draft previews.
-- Add image handling for featured media.
-- Add category routes.
-- Add sitemap generation.
-- Add robots.txt.
-- Add deployment environment variables.
-
+- Add full featured-media rendering if the production design requires real WordPress media.
