@@ -35,9 +35,9 @@ Use this checklist when developing both paths in parallel.
 | SEO title handling | [ ] | [x] | Next has metadata objects; block theme depends on WordPress/SEO plugin |
 | Meta descriptions | [ ] | [x] | Same as above |
 | Sitemap | [ ] | [ ] | Needs strategy in both |
-| Categories | [ ] | [ ] | Needs visible category output |
+| Categories | [x] | [x] | Block theme has category template/list; Next has `/categories` and category detail routes |
 | Internal links | [ ] | [ ] | Needs content entry |
-| CTA on posts | [x] | [ ] | Block theme includes CTA pattern in `single.html` |
+| CTA on posts | [x] | [x] | Block theme includes CTA pattern; Next includes post CTA section |
 
 ## Operations
 
@@ -53,7 +53,7 @@ Use this checklist when developing both paths in parallel.
 
 Bring the next set of page and conversion features into parity:
 
-1. Add post CTA to the Next.js blog post route.
-2. Add category display/routes for both tracks.
-3. Add deployment guides for both tracks.
-4. Add sitemap strategy for both tracks.
+1. Add deployment guides for both tracks.
+2. Add sitemap strategy for both tracks.
+3. Add explicit internal-linking examples for page and post content.
+4. Decide production form handling for both tracks.

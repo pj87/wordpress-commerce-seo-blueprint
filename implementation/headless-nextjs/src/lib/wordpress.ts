@@ -12,6 +12,14 @@ export type WordPressPost = {
   content: WordPressRendered;
 };
 
+export type WordPressCategory = {
+  id: number;
+  count: number;
+  name: string;
+  slug: string;
+  description: string;
+};
+
 export type WordPressPage = {
   id: number;
   slug: string;
@@ -55,6 +63,36 @@ export async function getPosts() {
   }
 
   return fetchWordPress<WordPressPost[]>('/posts?_fields=id,date,slug,link,title,excerpt&per_page=10');
+}
+
+export async function getCategories() {
+  if (!getApiUrl()) {
+    return [];
+  }
+
+  return fetchWordPress<WordPressCategory[]>('/categories?_fields=id,count,name,slug,description&per_page=20');
+}
+
+export async function getCategoryBySlug(slug: string) {
+  if (!getApiUrl()) {
+    return null;
+  }
+
+  const categories = await fetchWordPress<WordPressCategory[]>(
+    `/categories?slug=${encodeURIComponent(slug)}&_fields=id,count,name,slug,description`
+  );
+
+  return categories[0] ?? null;
+}
+
+export async function getPostsByCategoryId(categoryId: number) {
+  if (!getApiUrl()) {
+    return [];
+  }
+
+  return fetchWordPress<WordPressPost[]>(
+    `/posts?categories=${categoryId}&_fields=id,date,slug,link,title,excerpt&per_page=10`
+  );
 }
 
 export async function getPostBySlug(slug: string) {

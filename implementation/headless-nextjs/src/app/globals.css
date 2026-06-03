@@ -211,12 +211,35 @@ a {
   gap: 1rem;
 }
 
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 1.5rem;
+}
+
+.category-nav a {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  padding: 0.35rem 0.75rem;
+  text-decoration: none;
+}
+
 .article {
   max-width: 760px;
 }
 
 .post-date {
   color: var(--muted);
+}
+
+.post-cta {
+  margin-top: 3rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  padding: 1.5rem;
 }
 
 .cta {

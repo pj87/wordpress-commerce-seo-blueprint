@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { getPosts } from '@/lib/wordpress';
+import { getCategories, getPosts } from '@/lib/wordpress';
 
 export const metadata = {
   title: 'Blog',
@@ -7,7 +7,7 @@ export const metadata = {
 };
 
 export default async function BlogPage() {
-  const posts = await getPosts();
+  const [posts, categories] = await Promise.all([getPosts(), getCategories()]);
 
   return (
     <main className="section">
@@ -17,6 +17,15 @@ export default async function BlogPage() {
           No WordPress posts are available yet. Configure <code>WORDPRESS_API_URL</code> in
           <code> .env.local</code> after connecting a WordPress site.
         </p>
+      ) : null}
+      {categories.length > 0 ? (
+        <nav className="category-nav" aria-label="Article categories">
+          {categories.map((category) => (
+            <Link key={category.id} href={`/categories/${category.slug}`}>
+              {category.name}
+            </Link>
+          ))}
+        </nav>
       ) : null}
       <div className="post-list">
         {posts.map((post) => (

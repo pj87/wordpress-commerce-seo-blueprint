@@ -68,6 +68,7 @@ Initial posts:
 | Homepage | `front-page.html` and patterns | `src/app/page.tsx` |
 | Blog index | `index.html` fallback/posts page | `src/app/blog/page.tsx` |
 | Post detail | `single.html` | `src/app/blog/[slug]/page.tsx` |
+| Categories | `templates/category.html` and `patterns/category-list.php` | `src/app/categories/page.tsx` and `src/app/categories/[slug]/page.tsx` |
 | Services | `patterns/services-page.php` inserted into a WordPress page | `src/app/services/page.tsx` |
 | About | `patterns/about-page.php` inserted into a WordPress page | `src/app/about/page.tsx` |
 | Contact | `patterns/contact-page.php` inserted into a WordPress page | `src/app/contact/page.tsx` |
