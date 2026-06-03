@@ -38,6 +38,7 @@ Steps:
 ```text
 WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json/wp/v2
 NEXT_PUBLIC_SITE_URL=https://your-public-frontend.com
+CONTACT_FORM_ENDPOINT=https://your-form-endpoint.example
 ```
 
 4. Run the production build:
@@ -76,4 +77,3 @@ Sitemap strategy:
 - Sitemap and robots routes load.
 - Contact form production strategy is configured.
 - Analytics and Search Console are connected.
-

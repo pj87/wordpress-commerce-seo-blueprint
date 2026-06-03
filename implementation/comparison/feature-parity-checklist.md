@@ -11,7 +11,7 @@ Use this checklist when developing both paths in parallel.
 | About page | [x] | [x] | Block theme has page pattern; Next has `/about` route |
 | Blog index | [x] | [x] | Next supports empty state without API |
 | Blog post detail | [x] | [x] | Next route is dynamic |
-| Contact page | [x] | [x] | Placeholder form strategy in both |
+| Contact page | [x] | [x] | Block theme uses form plugin/shortcode placeholder; Next has `/api/contact` route |
 | Privacy policy | [x] | [x] | Placeholder legal content in both |
 
 ## Homepage Sections
@@ -54,6 +54,6 @@ Use this checklist when developing both paths in parallel.
 Bring the next set of page and conversion features into parity:
 
 1. Add explicit internal-linking examples for page and post content.
-2. Decide production form handling for both tracks.
-3. Add analytics/Search Console setup notes for both tracks.
-4. Add image/media handling strategy for both tracks.
+2. Add analytics/Search Console setup notes for both tracks.
+3. Add image/media handling strategy for both tracks.
+4. Add production hardening notes for form spam protection.

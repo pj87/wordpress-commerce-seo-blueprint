@@ -72,5 +72,6 @@ Assign posts to:
 - Homepage follows the wireframe.
 - Services page explains the package.
 - Contact page has a working form.
+- Headless contact form has `CONTACT_FORM_ENDPOINT` configured before production launch.
 - Blog has 3 posts.
 - Posts link to the relevant service or contact page.

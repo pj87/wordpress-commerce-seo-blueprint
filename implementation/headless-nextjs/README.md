@@ -39,6 +39,7 @@ npm install
 ```text
 WORDPRESS_API_URL=https://example.com/wp-json/wp/v2
 NEXT_PUBLIC_SITE_URL=https://example.com
+CONTACT_FORM_ENDPOINT=https://example.com/contact-endpoint
 ```
 
 4. Run the dev server:
@@ -71,6 +72,16 @@ The app generates:
 ```
 
 Set `NEXT_PUBLIC_SITE_URL` before production deployment so those files use the public frontend domain.
+
+## Contact Form
+
+The contact page posts to:
+
+```text
+/api/contact
+```
+
+Set `CONTACT_FORM_ENDPOINT` in production to forward validated submissions to a form backend, CRM, email service, or WordPress form endpoint.
 
 ## When To Use This
 
