@@ -45,6 +45,7 @@ projects/
 implementation/
   wordpress-block-theme/
   headless-nextjs/
+  comparison/
   setup/
 
 checklists/

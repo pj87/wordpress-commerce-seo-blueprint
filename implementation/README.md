@@ -6,6 +6,7 @@ This folder turns the documentation framework into buildable WordPress assets.
 
 - `wordpress-block-theme/` - a minimal block theme starter for the demo service site.
 - `headless-nextjs/` - a JS-first frontend scaffold that consumes WordPress REST API content.
+- `comparison/` - parity docs for developing both implementation paths in parallel.
 - `setup/` - setup notes for local WordPress, plugins, content entry, and launch preparation.
 
 ## Intended Use
