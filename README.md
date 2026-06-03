@@ -23,6 +23,22 @@ docs/
   03-wordpress-architectures.md
   04-project-types.md
 
+workflows/
+  01-discovery.md
+  02-sitemap-and-content.md
+  03-landing-page-build.md
+  04-seo-blog-build.md
+  05-woocommerce-store-build.md
+  06-launch.md
+  07-maintenance.md
+
+starters/
+  local-business-site.md
+  service-landing-blog.md
+  woocommerce-mini-store.md
+  seo-affiliate-blog.md
+  headless-wordpress-blog.md
+
 checklists/
   launch-checklist.md
   maintenance-checklist.md
@@ -57,6 +73,7 @@ Build a client-style WordPress service website:
 1. Read `docs/01-framework-overview.md`.
 2. Follow `docs/02-learning-path.md`.
 3. Pick a project from `docs/04-project-types.md`.
-4. Use the matching checklist and example template.
-5. Keep the original blueprint as the complete reference document.
-
+4. Choose a starter kit from `starters/`.
+5. Run the matching workflow from `workflows/`.
+6. Use the relevant checklist and example template.
+7. Keep the original blueprint as the complete reference document.
