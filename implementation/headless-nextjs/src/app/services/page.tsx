@@ -18,16 +18,19 @@ export default function ServicesPage() {
 
       <div className="grid">
         <article>
+          <div className="card-media">Landing</div>
           <h2>Landing page build</h2>
           <p>Hero, problem, solution, benefits, process, FAQ, and calls to action.</p>
           <Link href="/blog">See planning articles</Link>
         </article>
         <article>
+          <div className="card-media">SEO</div>
           <h2>SEO blog setup</h2>
           <p>Blog index, categories, starter posts, metadata, and internal linking structure.</p>
           <Link href="/categories/seo">Browse SEO topics</Link>
         </article>
         <article>
+          <div className="card-media">Launch</div>
           <h2>Launch basics</h2>
           <p>Forms, sitemap, analytics, caching, image optimization, backups, and security basics.</p>
           <Link href="/contact">Ask about launch setup</Link>

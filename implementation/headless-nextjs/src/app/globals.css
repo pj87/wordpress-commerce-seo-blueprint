@@ -61,6 +61,8 @@ a {
 
 .hero {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.72fr);
+  gap: 2rem;
   min-height: 66vh;
   align-items: center;
   padding-block: 5rem;
@@ -77,6 +79,55 @@ a {
   max-width: 680px;
   color: var(--muted);
   font-size: 1.2rem;
+}
+
+.hero-visual {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  box-shadow: 0 18px 50px rgb(23 32 38 / 8%);
+  overflow: hidden;
+}
+
+.browser-bar {
+  display: flex;
+  gap: 0.35rem;
+  border-bottom: 1px solid var(--line);
+  background: #eef3ef;
+  padding: 0.75rem;
+}
+
+.browser-bar span {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 999px;
+  background: var(--gold);
+}
+
+.visual-panel {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.visual-panel div,
+.card-media {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--paper);
+}
+
+.visual-panel div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.85rem;
+}
+
+.visual-panel span {
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 .lede {
@@ -146,6 +197,15 @@ a {
   border-radius: 8px;
   background: var(--surface);
   padding: 1.25rem;
+}
+
+.card-media {
+  display: grid;
+  min-height: 96px;
+  margin-bottom: 1rem;
+  place-items: center;
+  color: var(--green);
+  font-weight: 700;
 }
 
 .check-list,
@@ -291,6 +351,7 @@ a {
   }
 
   .split,
+  .hero,
   .steps {
     grid-template-columns: 1fr;
   }

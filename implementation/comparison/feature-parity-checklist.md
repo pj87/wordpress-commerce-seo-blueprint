@@ -38,6 +38,7 @@ Use this checklist when developing both paths in parallel.
 | Categories | [x] | [x] | Block theme has category template/list; Next has `/categories` and category detail routes |
 | Internal links | [x] | [x] | Link rules documented; key page links implemented in both tracks |
 | CTA on posts | [x] | [x] | Block theme includes CTA pattern; Next includes post CTA section |
+| Image/media handling | [x] | [x] | WordPress image blocks documented; Next visual slots implemented |
 
 ## Operations
 
@@ -54,7 +55,7 @@ Use this checklist when developing both paths in parallel.
 
 Bring the next set of page and conversion features into parity:
 
-1. Add image/media handling strategy for both tracks.
-2. Add production hardening notes for form spam protection.
-3. Add richer demo content for the first 3 blog posts.
-4. Add accessibility QA checklist for both tracks.
+1. Add production hardening notes for form spam protection.
+2. Add richer demo content for the first 3 blog posts.
+3. Add accessibility QA checklist for both tracks.
+4. Add performance QA checklist for both tracks.

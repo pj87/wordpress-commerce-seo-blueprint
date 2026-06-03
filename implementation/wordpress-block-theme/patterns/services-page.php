@@ -19,13 +19,13 @@
 	<!-- wp:columns {"align":"wide"} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Landing page build</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Hero, problem, solution, benefits, process, FAQ, and calls to action.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/blog/">See planning articles</a></p><!-- /wp:paragraph --></div>
+		<div class="wp-block-column"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"medium","linkDestination":"none"} --><figure class="wp-block-image size-medium"><img alt="Landing page layout preview" style="aspect-ratio:16/9;object-fit:cover"/></figure><!-- /wp:image --><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Landing page build</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Hero, problem, solution, benefits, process, FAQ, and calls to action.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/blog/">See planning articles</a></p><!-- /wp:paragraph --></div>
 		<!-- /wp:column -->
 		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">SEO blog setup</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Blog index, categories, starter posts, metadata, and internal linking structure.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/category/seo/">Browse SEO topics</a></p><!-- /wp:paragraph --></div>
+		<div class="wp-block-column"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"medium","linkDestination":"none"} --><figure class="wp-block-image size-medium"><img alt="SEO blog category preview" style="aspect-ratio:16/9;object-fit:cover"/></figure><!-- /wp:image --><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">SEO blog setup</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Blog index, categories, starter posts, metadata, and internal linking structure.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/category/seo/">Browse SEO topics</a></p><!-- /wp:paragraph --></div>
 		<!-- /wp:column -->
 		<!-- wp:column -->
-		<div class="wp-block-column"><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Launch basics</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Forms, sitemap, analytics, caching, image optimization, backups, and security basics.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/contact/">Ask about launch setup</a></p><!-- /wp:paragraph --></div>
+		<div class="wp-block-column"><!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"medium","linkDestination":"none"} --><figure class="wp-block-image size-medium"><img alt="WordPress launch checklist preview" style="aspect-ratio:16/9;object-fit:cover"/></figure><!-- /wp:image --><!-- wp:heading {"level":2} --><h2 class="wp-block-heading">Launch basics</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Forms, sitemap, analytics, caching, image optimization, backups, and security basics.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p><a href="/contact/">Ask about launch setup</a></p><!-- /wp:paragraph --></div>
 		<!-- /wp:column -->
 	</div>
 	<!-- /wp:columns -->

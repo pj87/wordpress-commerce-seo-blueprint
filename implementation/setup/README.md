@@ -13,3 +13,4 @@ Use these notes to turn the framework into a working WordPress demo.
 7. `07-deployment.md`
 8. `08-internal-linking.md`
 9. `09-analytics-search-console.md`
+10. `10-media-image-handling.md`

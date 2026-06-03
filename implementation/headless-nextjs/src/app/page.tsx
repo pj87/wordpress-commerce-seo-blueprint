@@ -20,6 +20,27 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
+        <div className="hero-visual" aria-label="WordPress launch dashboard preview">
+          <div className="browser-bar">
+            <span />
+            <span />
+            <span />
+          </div>
+          <div className="visual-panel">
+            <div>
+              <strong>Homepage</strong>
+              <span>CTA ready</span>
+            </div>
+            <div>
+              <strong>SEO blog</strong>
+              <span>3 starter posts</span>
+            </div>
+            <div>
+              <strong>Launch</strong>
+              <span>Checklist active</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="section split">
@@ -45,16 +66,19 @@ export default function HomePage() {
         <h2>Launch package</h2>
         <div className="grid">
           <article>
+            <div className="card-media">Landing</div>
             <h3>Conversion homepage</h3>
             <p>Clear positioning, benefits, process, FAQ, and calls to action.</p>
             <Link href="/services">View service scope</Link>
           </article>
           <article>
+            <div className="card-media">SEO</div>
             <h3>SEO blog foundation</h3>
             <p>Categories, article structure, metadata, and internal linking plan.</p>
             <Link href="/blog">Read SEO articles</Link>
           </article>
           <article>
+            <div className="card-media">Launch</div>
             <h3>Launch basics</h3>
             <p>Analytics, sitemap, forms, performance, security, and backup checklist.</p>
             <Link href="/contact">Plan a launch</Link>
@@ -80,16 +104,19 @@ export default function HomePage() {
         <h2>Build the SEO foundation before launch.</h2>
         <div className="grid">
           <article>
+            <div className="card-media">Guide</div>
             <h3>How to plan a WordPress landing page</h3>
             <p>Map the offer, audience, CTA, proof, and FAQ before opening the editor.</p>
             <Link href="/categories/wordpress">Browse WordPress articles</Link>
           </article>
           <article>
+            <div className="card-media">Checklist</div>
             <h3>WordPress SEO checklist for small business</h3>
             <p>Set clean URLs, metadata, internal links, image alt text, and a sitemap.</p>
             <Link href="/categories/seo">Browse SEO articles</Link>
           </article>
           <article>
+            <div className="card-media">Store</div>
             <h3>WooCommerce setup checklist</h3>
             <p>Plan products, categories, taxes, shipping, payments, and checkout testing.</p>
             <Link href="/categories/woocommerce">Browse WooCommerce articles</Link>

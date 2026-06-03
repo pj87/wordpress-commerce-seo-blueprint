@@ -36,6 +36,9 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:group {"style":{"border":{"color":"#dce3df","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"paper","layout":{"type":"constrained"}} -->
 			<div class="wp-block-group has-border-color has-paper-background-color has-background" style="border-color:#dce3df;border-width:1px;border-radius:8px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+				<!-- wp:image {"aspectRatio":"16/10","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+				<figure class="wp-block-image size-large"><img alt="WordPress launch dashboard preview" style="aspect-ratio:16/10;object-fit:cover"/></figure>
+				<!-- /wp:image -->
 				<!-- wp:heading {"level":3} -->
 				<h3 class="wp-block-heading">Launch package</h3>
 				<!-- /wp:heading -->
@@ -56,4 +59,3 @@
 	<!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
-
