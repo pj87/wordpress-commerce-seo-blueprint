@@ -1,0 +1,176 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1120px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "ink",
+          "color": "#172026",
+          "name": "Ink"
+        },
+        {
+          "slug": "paper",
+          "color": "#f8faf7",
+          "name": "Paper"
+        },
+        {
+          "slug": "surface",
+          "color": "#ffffff",
+          "name": "Surface"
+        },
+        {
+          "slug": "green",
+          "color": "#2f7d5c",
+          "name": "Green"
+        },
+        {
+          "slug": "gold",
+          "color": "#d19a2a",
+          "name": "Gold"
+        },
+        {
+          "slug": "muted",
+          "color": "#5f6b73",
+          "name": "Muted"
+        }
+      ]
+    },
+    "spacing": {
+      "spacingScale": {
+        "steps": 0
+      },
+      "spacingSizes": [
+        {
+          "slug": "20",
+          "size": "1rem",
+          "name": "20"
+        },
+        {
+          "slug": "30",
+          "size": "1.5rem",
+          "name": "30"
+        },
+        {
+          "slug": "40",
+          "size": "2rem",
+          "name": "40"
+        },
+        {
+          "slug": "50",
+          "size": "3rem",
+          "name": "50"
+        },
+        {
+          "slug": "60",
+          "size": "4rem",
+          "name": "60"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+          "slug": "system",
+          "name": "System"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "0.9rem",
+          "name": "Small"
+        },
+        {
+          "slug": "normal",
+          "size": "1rem",
+          "name": "Normal"
+        },
+        {
+          "slug": "large",
+          "size": "1.35rem",
+          "name": "Large"
+        },
+        {
+          "slug": "x-large",
+          "size": "2.25rem",
+          "name": "Extra Large"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|paper",
+      "text": "var:preset|color|ink"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|system",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "6px"
+        },
+        "color": {
+          "background": "var:preset|color|green",
+          "text": "var:preset|color|surface"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.75rem",
+            "right": "1rem",
+            "bottom": "0.75rem",
+            "left": "1rem"
+          }
+        }
+      },
+      "heading": {
+        "typography": {
+          "lineHeight": "1.15"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|green"
+        }
+      }
+    },
+    "blocks": {
+      "core/group": {
+        "spacing": {
+          "blockGap": "1.25rem"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "landing-page",
+      "title": "Landing Page",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
+}
+

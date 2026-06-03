@@ -42,6 +42,10 @@ starters/
 projects/
   demo-service-site/
 
+implementation/
+  wordpress-block-theme/
+  setup/
+
 checklists/
   launch-checklist.md
   maintenance-checklist.md
@@ -73,6 +77,12 @@ Build a client-style WordPress service website:
 
 See `projects/demo-service-site/` for a filled-out example of this project type.
 
+## Buildable Starter
+
+Use `implementation/wordpress-block-theme/` as a minimal block theme starter for the demo service site.
+
+Setup notes live in `implementation/setup/`.
+
 ## How To Use This Repo
 
 1. Read `docs/01-framework-overview.md`.
@@ -82,4 +92,5 @@ See `projects/demo-service-site/` for a filled-out example of this project type.
 5. Run the matching workflow from `workflows/`.
 6. Use the relevant checklist and example template.
 7. Compare your output with `projects/demo-service-site/`.
-8. Keep the original blueprint as the complete reference document.
+8. Build with `implementation/wordpress-block-theme/` if you want a WordPress theme starter.
+9. Keep the original blueprint as the complete reference document.

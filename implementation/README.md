@@ -1,0 +1,21 @@
+# Implementation
+
+This folder turns the documentation framework into buildable WordPress assets.
+
+## Contents
+
+- `wordpress-block-theme/` - a minimal block theme starter for the demo service site.
+- `setup/` - setup notes for local WordPress, plugins, content entry, and launch preparation.
+
+## Intended Use
+
+Copy `implementation/wordpress-block-theme/` into a WordPress installation under:
+
+```text
+wp-content/themes/wp-growth-studio/
+```
+
+Then activate the theme from the WordPress admin panel.
+
+The theme maps to the demo project in `projects/demo-service-site/`.
+
