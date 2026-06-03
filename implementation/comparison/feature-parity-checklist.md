@@ -19,13 +19,13 @@ Use this checklist when developing both paths in parallel.
 | Section | Block theme | Headless Next.js | Notes |
 | --- | --- | --- | --- |
 | Hero | [x] | [x] | Implemented in both |
-| Problem | [ ] | [ ] | Planned in demo wireframe |
-| Solution | [ ] | [ ] | Planned in demo wireframe |
+| Problem | [x] | [x] | Implemented in both |
+| Solution | [x] | [x] | Implemented in both |
 | Benefits | [x] | [x] | Implemented in both |
-| Features | [ ] | [x] | Next includes launch package cards |
-| Process | [x] | [ ] | Missing in Next home page |
-| Blog preview | [ ] | [ ] | Missing in both |
-| FAQ | [x] | [ ] | Missing in Next home page |
+| Features | [x] | [x] | Solution/package cards cover feature details |
+| Process | [x] | [x] | Implemented in both |
+| Blog preview | [x] | [x] | Block theme uses query; Next uses static preview cards |
+| FAQ | [x] | [x] | Implemented in both |
 | Final CTA | [x] | [x] | Implemented in both |
 
 ## Content And SEO
@@ -51,10 +51,9 @@ Use this checklist when developing both paths in parallel.
 
 ## Next Priority
 
-Bring the missing homepage sections into parity:
+Bring the next set of page and conversion features into parity:
 
-1. Add problem and solution sections to both tracks.
-2. Add process and FAQ sections to the Next.js homepage.
-3. Add blog preview to both tracks.
-4. Add contact page/form strategy for both tracks.
-
+1. Add Services and About pages to both tracks.
+2. Add contact page/form strategy for both tracks.
+3. Add post CTA to the Next.js blog post route.
+4. Add deployment guides for both tracks.
