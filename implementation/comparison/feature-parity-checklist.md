@@ -48,12 +48,13 @@ Use this checklist when developing both paths in parallel.
 | Theme activation docs | [x] | [ ] | Not applicable to headless |
 | Deployment docs | [x] | [x] | `implementation/setup/07-deployment.md` covers both |
 | Launch checklist mapping | [x] | [x] | Launch prep links to deployment-specific setup |
+| Analytics/Search Console | [x] | [x] | WordPress plugin path documented; Next env/script support implemented |
 
 ## Next Priority
 
 Bring the next set of page and conversion features into parity:
 
-1. Add analytics/Search Console setup notes for both tracks.
-2. Add image/media handling strategy for both tracks.
-3. Add production hardening notes for form spam protection.
-4. Add richer demo content for the first 3 blog posts.
+1. Add image/media handling strategy for both tracks.
+2. Add production hardening notes for form spam protection.
+3. Add richer demo content for the first 3 blog posts.
+4. Add accessibility QA checklist for both tracks.

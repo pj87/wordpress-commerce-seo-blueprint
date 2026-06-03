@@ -39,6 +39,8 @@ Steps:
 WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json/wp/v2
 NEXT_PUBLIC_SITE_URL=https://your-public-frontend.com
 CONTACT_FORM_ENDPOINT=https://your-form-endpoint.example
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+GOOGLE_SITE_VERIFICATION=search-console-verification-token
 ```
 
 4. Run the production build:

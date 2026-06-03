@@ -40,6 +40,8 @@ npm install
 WORDPRESS_API_URL=https://example.com/wp-json/wp/v2
 NEXT_PUBLIC_SITE_URL=https://example.com
 CONTACT_FORM_ENDPOINT=https://example.com/contact-endpoint
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+GOOGLE_SITE_VERIFICATION=search-console-verification-token
 ```
 
 4. Run the dev server:
@@ -82,6 +84,17 @@ The contact page posts to:
 ```
 
 Set `CONTACT_FORM_ENDPOINT` in production to forward validated submissions to a form backend, CRM, email service, or WordPress form endpoint.
+
+## Analytics And Search Console
+
+Set these values in production when tracking and verification are needed:
+
+```text
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+GOOGLE_SITE_VERIFICATION=search-console-verification-token
+```
+
+Analytics loads only when `NEXT_PUBLIC_GA_MEASUREMENT_ID` is configured.
 
 ## When To Use This
 

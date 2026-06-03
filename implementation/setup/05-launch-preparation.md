@@ -29,6 +29,7 @@ Use:
 14. Review admin users.
 15. Remove unused plugins.
 16. Confirm deployment-specific setup in `implementation/setup/07-deployment.md`.
+17. Confirm analytics and Search Console setup in `implementation/setup/09-analytics-search-console.md`.
 
 ## Verification
 
