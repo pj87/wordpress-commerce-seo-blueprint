@@ -8,6 +8,7 @@ type FormState = {
 };
 
 export function ContactForm() {
+  const [startedAt] = useState(() => Date.now());
   const [formState, setFormState] = useState<FormState>({
     status: 'idle',
     message: ''
@@ -24,7 +25,9 @@ export function ContactForm() {
       body: JSON.stringify({
         name: formData.get('name'),
         email: formData.get('email'),
-        message: formData.get('message')
+        message: formData.get('message'),
+        website: formData.get('website'),
+        startedAt
       }),
       headers: {
         'Content-Type': 'application/json'
@@ -57,6 +60,10 @@ export function ContactForm() {
         Project notes
         <textarea name="message" rows={5} required />
       </label>
+      <label className="honeypot" aria-hidden="true">
+        Website
+        <input name="website" type="text" tabIndex={-1} autoComplete="off" />
+      </label>
       <button type="submit" disabled={formState.status === 'submitting'}>
         {formState.status === 'submitting' ? 'Sending...' : 'Send message'}
       </button>
@@ -66,4 +73,3 @@ export function ContactForm() {
     </form>
   );
 }
-

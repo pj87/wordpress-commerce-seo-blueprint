@@ -85,6 +85,12 @@ The contact page posts to:
 
 Set `CONTACT_FORM_ENDPOINT` in production to forward validated submissions to a form backend, CRM, email service, or WordPress form endpoint.
 
+The local API route includes basic spam checks. See:
+
+```text
+../setup/11-form-spam-hardening.md
+```
+
 ## Analytics And Search Console
 
 Set these values in production when tracking and verification are needed:

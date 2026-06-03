@@ -50,12 +50,13 @@ Use this checklist when developing both paths in parallel.
 | Deployment docs | [x] | [x] | `implementation/setup/07-deployment.md` covers both |
 | Launch checklist mapping | [x] | [x] | Launch prep links to deployment-specific setup |
 | Analytics/Search Console | [x] | [x] | WordPress plugin path documented; Next env/script support implemented |
+| Form spam hardening | [x] | [x] | WordPress plugin requirements documented; Next route has basic spam checks |
 
 ## Next Priority
 
 Bring the next set of page and conversion features into parity:
 
-1. Add production hardening notes for form spam protection.
-2. Add richer demo content for the first 3 blog posts.
-3. Add accessibility QA checklist for both tracks.
-4. Add performance QA checklist for both tracks.
+1. Add richer demo content for the first 3 blog posts.
+2. Add accessibility QA checklist for both tracks.
+3. Add performance QA checklist for both tracks.
+4. Add WooCommerce implementation parity.

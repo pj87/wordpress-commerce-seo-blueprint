@@ -244,6 +244,11 @@ a {
   font-weight: 700;
 }
 
+.contact-form .honeypot {
+  position: absolute;
+  left: -9999px;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;

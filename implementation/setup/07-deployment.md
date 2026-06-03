@@ -78,4 +78,5 @@ Sitemap strategy:
 - Next.js build passes.
 - Sitemap and robots routes load.
 - Contact form production strategy is configured.
+- Contact form spam controls are configured.
 - Analytics and Search Console are connected.

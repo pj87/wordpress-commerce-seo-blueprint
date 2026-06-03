@@ -4,19 +4,42 @@ type ContactPayload = {
   name?: unknown;
   email?: unknown;
   message?: unknown;
+  website?: unknown;
+  startedAt?: unknown;
 };
 
 export async function POST(request: Request) {
-  const payload = (await request.json()) as ContactPayload;
+  let payload: ContactPayload;
+
+  try {
+    payload = (await request.json()) as ContactPayload;
+  } catch {
+    return NextResponse.json({ message: 'Invalid form payload.' }, { status: 400 });
+  }
+
   const name = normalizeField(payload.name);
   const email = normalizeField(payload.email);
   const message = normalizeField(payload.message);
+  const website = normalizeField(payload.website);
+  const startedAt = typeof payload.startedAt === 'number' ? payload.startedAt : 0;
+
+  if (website) {
+    return NextResponse.json({ message: 'The form could not be submitted.' }, { status: 400 });
+  }
+
+  if (!startedAt || Date.now() - startedAt < 3000) {
+    return NextResponse.json({ message: 'Please wait a moment before submitting the form.' }, { status: 400 });
+  }
 
   if (!name || !email || !message) {
     return NextResponse.json({ message: 'Name, email, and project notes are required.' }, { status: 400 });
   }
 
-  if (!email.includes('@')) {
+  if (name.length > 120 || email.length > 180 || message.length > 3000) {
+    return NextResponse.json({ message: 'The form content is too long.' }, { status: 400 });
+  }
+
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return NextResponse.json({ message: 'Enter a valid email address.' }, { status: 400 });
   }
 
@@ -50,4 +73,3 @@ export async function POST(request: Request) {
 function normalizeField(value: unknown) {
   return typeof value === 'string' ? value.trim() : '';
 }
-

@@ -14,3 +14,4 @@ Use these notes to turn the framework into a working WordPress demo.
 8. `08-internal-linking.md`
 9. `09-analytics-search-console.md`
 10. `10-media-image-handling.md`
+11. `11-form-spam-hardening.md`

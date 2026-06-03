@@ -30,6 +30,7 @@ Use:
 15. Remove unused plugins.
 16. Confirm deployment-specific setup in `implementation/setup/07-deployment.md`.
 17. Confirm analytics and Search Console setup in `implementation/setup/09-analytics-search-console.md`.
+18. Confirm form spam hardening in `implementation/setup/11-form-spam-hardening.md`.
 
 ## Verification
 
@@ -41,3 +42,4 @@ Use:
 - Backups are configured.
 - Mobile layout is reviewed.
 - Sitemap and robots routes are verified.
+- Contact form spam controls are verified.
