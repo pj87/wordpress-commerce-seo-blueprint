@@ -30,6 +30,8 @@ This file connects the planning framework to the buildable block theme.
 | `patterns/process.php` | Project process section |
 | `patterns/faq.php` | FAQ section |
 | `patterns/cta.php` | Final CTA and blog post CTA |
+| `assets/js/site.js` | Optional frontend behavior placeholder |
+| `assets/css/site.css` | Optional custom CSS placeholder |
 
 ## Build Test
 
@@ -40,4 +42,3 @@ The implementation passes the framework test when:
 - Header and footer display correctly.
 - Blog posts use the single post template.
 - The setup docs explain how to enter pages, categories, posts, plugins, and launch checks.
-

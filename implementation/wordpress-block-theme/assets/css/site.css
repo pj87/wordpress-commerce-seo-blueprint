@@ -1,0 +1,11 @@
+/*
+ * Optional frontend CSS for the WP Growth Studio theme.
+ *
+ * Prefer theme.json and block settings first. Use this file for small
+ * details that cannot be expressed cleanly through WordPress block styles.
+ */
+
+.has-site-js {
+	scroll-behavior: smooth;
+}
+

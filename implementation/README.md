@@ -19,3 +19,4 @@ Then activate the theme from the WordPress admin panel.
 
 The theme maps to the demo project in `projects/demo-service-site/`.
 
+See `wordpress-block-theme/README.md` for the theme file structure and PHP/JS boundary.
