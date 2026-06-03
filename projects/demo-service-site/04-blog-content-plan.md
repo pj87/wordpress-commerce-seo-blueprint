@@ -47,6 +47,12 @@ Book a consultation.
 2. WordPress SEO Checklist for Small Business Websites
 3. WooCommerce Setup Checklist for Small Stores
 
+Drafts:
+
+- `blog-posts/01-wordpress-landing-page-plan.md`
+- `blog-posts/02-wordpress-seo-checklist-small-business.md`
+- `blog-posts/03-woocommerce-setup-checklist-small-stores.md`
+
 ## Internal Linking Rules
 
 - Every supporting article links to the pillar page.
@@ -68,3 +74,9 @@ Book a consultation.
 - FAQ
 - CTA
 
+## Publishing Notes
+
+- Use each draft's metadata section for slug, category, SEO title, and meta description.
+- Convert internal link targets from code blocks into actual WordPress links.
+- Add a featured image or visual slot before publishing.
+- Review each post against `checklists/seo-blog-checklist.md`.

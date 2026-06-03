@@ -39,6 +39,7 @@ Use this checklist when developing both paths in parallel.
 | Internal links | [x] | [x] | Link rules documented; key page links implemented in both tracks |
 | CTA on posts | [x] | [x] | Block theme includes CTA pattern; Next includes post CTA section |
 | Image/media handling | [x] | [x] | WordPress image blocks documented; Next visual slots implemented |
+| Demo blog content | [x] | [x] | Three build-ready draft posts added for WordPress entry and headless API content |
 
 ## Operations
 
@@ -58,7 +59,7 @@ Use this checklist when developing both paths in parallel.
 
 Bring the next set of page and conversion features into parity:
 
-1. Add richer demo content for the first 3 blog posts.
-2. Add WooCommerce implementation parity.
-3. Add editor preview/content workflow notes.
-4. Add release checklist.
+1. Add WooCommerce implementation parity.
+2. Add editor preview/content workflow notes.
+3. Add release checklist.
+4. Add automated docs/link checks.

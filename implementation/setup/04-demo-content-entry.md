@@ -58,6 +58,12 @@ Create these initial posts:
 2. WordPress SEO Checklist for Small Business Websites
 3. WooCommerce Setup Checklist for Small Stores
 
+Use the drafts in:
+
+```text
+projects/demo-service-site/blog-posts/
+```
+
 ## Categories
 
 Assign posts to:
@@ -76,3 +82,4 @@ Assign posts to:
 - Blog has 3 posts.
 - Posts link to the relevant service or contact page.
 - Internal links follow `implementation/setup/08-internal-linking.md`.
+- Post metadata follows the metadata blocks in the draft files.
