@@ -36,7 +36,7 @@ Use this checklist when developing both paths in parallel.
 | Meta descriptions | [ ] | [x] | Same as above |
 | Sitemap | [x] | [x] | WordPress uses SEO/core sitemap; Next generates `/sitemap.xml` |
 | Categories | [x] | [x] | Block theme has category template/list; Next has `/categories` and category detail routes |
-| Internal links | [ ] | [ ] | Needs content entry |
+| Internal links | [x] | [x] | Link rules documented; key page links implemented in both tracks |
 | CTA on posts | [x] | [x] | Block theme includes CTA pattern; Next includes post CTA section |
 
 ## Operations
@@ -53,7 +53,7 @@ Use this checklist when developing both paths in parallel.
 
 Bring the next set of page and conversion features into parity:
 
-1. Add explicit internal-linking examples for page and post content.
-2. Add analytics/Search Console setup notes for both tracks.
-3. Add image/media handling strategy for both tracks.
-4. Add production hardening notes for form spam protection.
+1. Add analytics/Search Console setup notes for both tracks.
+2. Add image/media handling strategy for both tracks.
+3. Add production hardening notes for form spam protection.
+4. Add richer demo content for the first 3 blog posts.

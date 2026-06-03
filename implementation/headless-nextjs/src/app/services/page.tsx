@@ -20,14 +20,17 @@ export default function ServicesPage() {
         <article>
           <h2>Landing page build</h2>
           <p>Hero, problem, solution, benefits, process, FAQ, and calls to action.</p>
+          <Link href="/blog">See planning articles</Link>
         </article>
         <article>
           <h2>SEO blog setup</h2>
           <p>Blog index, categories, starter posts, metadata, and internal linking structure.</p>
+          <Link href="/categories/seo">Browse SEO topics</Link>
         </article>
         <article>
           <h2>Launch basics</h2>
           <p>Forms, sitemap, analytics, caching, image optimization, backups, and security basics.</p>
+          <Link href="/contact">Ask about launch setup</Link>
         </article>
       </div>
 
@@ -35,8 +38,10 @@ export default function ServicesPage() {
         <Link className="button" href="/contact">
           Book a consultation
         </Link>
+        <Link className="button secondary" href="/categories">
+          Browse article categories
+        </Link>
       </div>
     </main>
   );
 }
-

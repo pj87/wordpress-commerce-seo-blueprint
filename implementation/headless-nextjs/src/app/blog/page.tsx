@@ -12,6 +12,10 @@ export default async function BlogPage() {
   return (
     <main className="section">
       <h1>Blog</h1>
+      <p className="lede">
+        Use these articles to plan the sitemap, service pages, SEO categories, and launch checklist.
+        For implementation help, start with <Link href="/services">the service scope</Link>.
+      </p>
       {posts.length === 0 ? (
         <p>
           No WordPress posts are available yet. Configure <code>WORDPRESS_API_URL</code> in

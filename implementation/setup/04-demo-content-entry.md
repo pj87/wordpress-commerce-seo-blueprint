@@ -75,3 +75,4 @@ Assign posts to:
 - Headless contact form has `CONTACT_FORM_ENDPOINT` configured before production launch.
 - Blog has 3 posts.
 - Posts link to the relevant service or contact page.
+- Internal links follow `implementation/setup/08-internal-linking.md`.

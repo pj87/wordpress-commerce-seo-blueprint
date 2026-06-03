@@ -49,7 +49,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           </article>
         ))}
       </div>
+      <div className="actions compact">
+        <Link className="button secondary" href="/blog">
+          Back to blog
+        </Link>
+        <Link className="button" href="/contact">
+          Plan this content
+        </Link>
+      </div>
     </main>
   );
 }
-

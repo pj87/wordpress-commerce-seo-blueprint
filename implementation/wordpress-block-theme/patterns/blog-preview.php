@@ -23,8 +23,10 @@
 		<!-- wp:button {"className":"is-style-outline"} -->
 		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/blog/">View all articles</a></div>
 		<!-- /wp:button -->
+		<!-- wp:button {"className":"is-style-outline"} -->
+		<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/category/seo/">Browse SEO articles</a></div>
+		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
 </div>
 <!-- /wp:group -->
-

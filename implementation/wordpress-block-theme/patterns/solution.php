@@ -18,7 +18,7 @@
 			<h3 class="wp-block-heading">Landing page</h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p>A homepage built around the offer, benefits, trust, process, FAQ, and consultation CTA.</p>
+			<p>A homepage built around the offer, benefits, trust, process, FAQ, and consultation CTA. <a href="/services/">View service scope</a>.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -28,7 +28,7 @@
 			<h3 class="wp-block-heading">SEO blog</h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p>Categories, article structure, metadata, and internal links that support organic traffic.</p>
+			<p>Categories, article structure, metadata, and internal links that support organic traffic. <a href="/blog/">Read SEO articles</a>.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -38,7 +38,7 @@
 			<h3 class="wp-block-heading">Launch setup</h3>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p>Forms, analytics, sitemap, performance, security, backups, and launch checks.</p>
+			<p>Forms, analytics, sitemap, performance, security, backups, and launch checks. <a href="/contact/">Plan a launch</a>.</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -46,4 +46,3 @@
 	<!-- /wp:columns -->
 </div>
 <!-- /wp:group -->
-
