@@ -65,5 +65,6 @@ Single post by slug:
 - Confirm `/blog` and `/categories` return content when WordPress is connected.
 - Confirm `/sitemap.xml` and `/robots.txt`.
 - Confirm `/api/contact` forwards to the production endpoint.
+- Follow `../setup/15-editor-preview-content-workflow.md` for the current published-content workflow.
 - Add preview support if editors need draft previews.
 - Add full featured-media rendering if the production design requires real WordPress media.

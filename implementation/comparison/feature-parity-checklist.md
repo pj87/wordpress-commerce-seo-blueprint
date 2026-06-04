@@ -56,12 +56,13 @@ Use this checklist when developing both paths in parallel.
 | Accessibility QA | [x] | [x] | Shared QA checklist added; Next form status is announced |
 | Performance QA | [x] | [x] | Shared QA checklist added; Next build route expectations documented |
 | WooCommerce implementation | [x] | [x] | WordPress path is real WooCommerce; Next path is catalog preview boundary |
+| Editor/content workflow | [x] | [x] | Published-content workflow documented; headless draft preview is future work |
 
 ## Next Priority
 
 Bring the next set of page and conversion features into parity:
 
-1. Add editor preview/content workflow notes.
-2. Add release checklist.
-3. Add automated docs/link checks.
-4. Expand headless WooCommerce API integration.
+1. Add release checklist.
+2. Add automated docs/link checks.
+3. Expand headless WooCommerce API integration.
+4. Add draft preview implementation when needed.

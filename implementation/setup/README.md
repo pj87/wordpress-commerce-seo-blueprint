@@ -18,3 +18,4 @@ Use these notes to turn the framework into a working WordPress demo.
 12. `12-accessibility-qa.md`
 13. `13-performance-qa.md`
 14. `14-woocommerce-implementation.md`
+15. `15-editor-preview-content-workflow.md`

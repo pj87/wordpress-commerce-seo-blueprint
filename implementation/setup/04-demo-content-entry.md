@@ -83,3 +83,4 @@ Assign posts to:
 - Posts link to the relevant service or contact page.
 - Internal links follow `implementation/setup/08-internal-linking.md`.
 - Post metadata follows the metadata blocks in the draft files.
+- Editor preview follows `implementation/setup/15-editor-preview-content-workflow.md`.
